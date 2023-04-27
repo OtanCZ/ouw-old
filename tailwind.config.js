@@ -39,5 +39,6 @@ module.exports = {
         },
     },
     plugins: [],
+    enable: process.env.NODE_ENV === 'production',
 }
 
